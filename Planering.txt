@@ -1,0 +1,27 @@
+
+PROJEKTETS GÅNG:
+
+Idé - Research, inspiration, Brainstorm
+Skiss - Papper och penna, Mobile first, Feedback
+Mockup - Wireframe, Figma/Adobe XD, Grafik
+Koda - Arkitektur, Mobile first, Layouting, komponentträd, felsökning, detaljer sist, testing
+Drifta - Github Pages, Testing
+
+KRAVSPECIFKATION:
+
+Skiss och mockup - Figma eller Adobe XD
+Layout - Grid och Flexbox
+Responsive - Mobile och Desktop
+Optimering - Bildformat och storlekar
+Komplexitet - Antal och kvalité på komponenter
+Versionshantering - Github
+
+
+Fnörsken's Smashed Burgers
+
+Flikar
+- Hem
+- Meny
+- Hitta hit & Kontakt
+
+
