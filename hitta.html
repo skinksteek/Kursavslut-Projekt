@@ -4,12 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hem</title>
+  <title>Hitta hit</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/a33b130ecd.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body id="body-hitta">
   <nav>
     <a href="./index.html">
       <aside></aside>
@@ -40,7 +40,32 @@
   <a href="#" class="menu-burger">
     <i class="fas fa-hamburger"></i>
   </a>
+  <main>
+  <section class="intro-hitta-container">
+    <article class="intro-article">
+      <img src="./photos/burger_show.jpg" alt="Burgers">
+    </article>
+  </section>
+  <section id="findus">
+    <article class="findus-left">
+      <h2>HITTA HIT</h2>
+      <p>Fnörsken's Smashed Burgers | Maskinistgatan 3, Kristinehamn 681 35 | 070 27 85 881</p>
+    </article>
+    <article class="findus-right">
+      <h2>ÖPPETTIDER</h2>
+      <p>Måndag - Torsdag 11-22
+        <br>
+        Fredag 11-23
+        <br>
+        Lördag 12-23 | Söndag 12-21
+      </p>
+    </article>
+  </section>
+    <div id="map"></div>
+  </main>
 </body>
 <script src="./script.js"></script>
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJkaxQZ6zbMH7ZodSd0gmIqnGn_Oz7mx0&callback=initMap"></script>
 
 </html>
