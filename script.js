@@ -13,7 +13,7 @@ function openNavigation() {
 function initMap() {
   var location = {lat: 59.322794, lng: 14.112214};
   var map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 17,
+      zoom: 12,
       center: location
   });
   var marker = new google.maps.Marker({
